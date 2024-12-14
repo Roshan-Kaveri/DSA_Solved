@@ -1,4 +1,4 @@
-package arrays.easy;//{ Driver Code Starts
+package gfg_160.arrays.easy;//{ Driver Code Starts
 
 // https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/next-permutation5226
 

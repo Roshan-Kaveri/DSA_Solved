@@ -1,4 +1,4 @@
-package arrays.easy;
+package gfg_160.arrays.easy;
 
 //https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/rotate-array-by-n-elements-1587115621
 

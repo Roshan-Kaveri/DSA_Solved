@@ -1,4 +1,4 @@
-package strings.medium;//{ Driver Code Starts
+package gfg_160.strings.medium;//{ Driver Code Starts
 // Initial Template for Java
 
 import java.io.*;

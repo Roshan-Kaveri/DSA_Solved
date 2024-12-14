@@ -1,4 +1,4 @@
-package sort.medium;
+package gfg_160.sort.medium;
 
 
 //{ Driver Code Starts

@@ -1,4 +1,4 @@
-package sort.easy;
+package gfg_160.sort.easy;
 
 //{ Driver Code Starts
 import java.io.*;
@@ -32,7 +32,7 @@ class Sort012 {
 
 // } Driver Code Ends
 class Solution_S012 {
-    // Function to sort an array of 0s, 1s, and 2s
+    // Function to gfg_160.sort an array of 0s, 1s, and 2s
     public void sort012(int[] arr) {
         // code here
         // code here 
