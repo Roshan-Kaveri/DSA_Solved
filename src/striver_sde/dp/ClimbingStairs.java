@@ -1,6 +1,5 @@
-package striver_sde.day1;
-import java.io.*;
-        import java.util.*;
+package striver_sde.dp;
+import java.util.*;
 
 class ClimbingStairs {
     public static void main(String[] args) {

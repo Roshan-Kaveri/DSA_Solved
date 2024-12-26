@@ -1,10 +1,9 @@
-package striver_sde.day1;
+package striver_sde.dp;
 
 //{ Driver Code Starts
 // Initial Template for Java
 
-import java.io.*;
-        import java.util.*;
+import java.util.*;
 
 public class SetMaxZeros {
 
