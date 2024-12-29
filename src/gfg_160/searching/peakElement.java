@@ -1,5 +1,6 @@
 //{ Driver Code Starts
 // Initial Template for Java
+package gfg_160.searching;
 
 import java.io.*;
 import java.lang.*;
@@ -17,7 +18,7 @@ class GFG {
             for (int i = 0; i < arr.length; i++) {
                 a[i] = Integer.parseInt(arr[i]);
             }
-            Solution obj = new Solution();
+            Solution_PE obj = new Solution_PE();
             int f = 0;
             int idx = obj.peakElement(a);
             int n = a.length;
@@ -52,7 +53,7 @@ class GFG {
 
 /*Complete the function below*/
 
-class Solution
+class Solution_PE
 {
 	// Function to find the peak element
 	// arr[]: input array

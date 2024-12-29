@@ -1,7 +1,10 @@
 //{ Driver Code Starts
+
+package  gfg_160.searching;
+
 import java.util.*;
 
-public class Main {
+public class SortRotMin {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int t = Integer.parseInt(scanner.nextLine());
