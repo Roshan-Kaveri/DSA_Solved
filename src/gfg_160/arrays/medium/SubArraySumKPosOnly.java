@@ -3,6 +3,7 @@ package gfg_160.arrays.medium;
 import java.util.ArrayList;
 
 public class SubArraySumKPosOnly {
+    //  return with 1 based indexing ( start and end index )
     static ArrayList<Integer> subarraySum(int[] arr, int target) {
         // code here
         int n = arr.length;
