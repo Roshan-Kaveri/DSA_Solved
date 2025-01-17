@@ -7,7 +7,7 @@ public class ProductWithoutSelf {
     public static int[] productExceptSelf(int arr[]) {
         // code here
         int n = arr.length;
-        int prod = 1;
+        int prod =  1;
         int z = 0, zindex = -1;
 
         int[] res = new int[n];
