@@ -2,14 +2,6 @@ package gfg_160.LL.easy;
 
 import org.w3c.dom.Node;
 
-class Nodes {
-    int data;
-    Nodes next;
-    Nodes(int value) {
-        this.data = value;
-    }
-}
-
 public class ReverseLL {
     //Function to reverse a linked list.
     Nodes reverseList(Nodes head)
