@@ -1,2 +1,37 @@
-package gfg_160.stack;public class calculateSpan {
+package gfg_160.stack;
+
+import java.util.ArrayList;
+import java.util.Stack;
+// https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1
+public class calculateSpan {
+    public ArrayList<Integer> calculateSpan(int[] arr) {
+        // write code here
+        ArrayList<Integer> res = new ArrayList<>();
+        Stack<Integer> st = new Stack<>();
+        res.add(1);
+        st.push(0);
+
+        for(int i=1;i<arr.length;i++){
+            if(arr[i] < arr[st.peek()]){
+                res.add(i-st.peek());
+                st.push(i);
+            }
+
+            else{
+                while((!st.isEmpty()) && (arr[i] >= arr[st.peek()])){
+                    st.pop();
+                }
+
+                if(!st.isEmpty()){
+                    res.add(i-st.peek());
+                }
+                else{
+                    res.add(i+1);
+                }
+
+                st.push(i);
+            }
+        }
+        return res;
+    }
 }
