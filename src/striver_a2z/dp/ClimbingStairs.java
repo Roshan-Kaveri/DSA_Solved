@@ -1,4 +1,4 @@
-package striver_sde.dp;
+package striver_a2z.dp;
 import java.util.*;
 
 class ClimbingStairs {

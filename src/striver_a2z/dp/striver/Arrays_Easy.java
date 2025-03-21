@@ -1,4 +1,4 @@
-package striver_sde.dp.striver;
+package striver_a2z.dp.striver;
 
 public class Arrays_Easy {
     class MoveZerosToEND {

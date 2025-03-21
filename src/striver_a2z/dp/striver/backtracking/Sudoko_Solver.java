@@ -1,4 +1,4 @@
-package striver_sde.dp.striver.backtracking;
+package striver_a2z.dp.striver.backtracking;
 
 public class Sudoko_Solver {
     static void solveSudoku(int[][] mat) {

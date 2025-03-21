@@ -1,4 +1,4 @@
-package striver_sde.dp.striver.greedy;
+package striver_a2z.dp.striver.greedy;
 
 import java.util.Arrays;
 

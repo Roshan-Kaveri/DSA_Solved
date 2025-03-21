@@ -1,4 +1,4 @@
-package striver_sde.dp.striver.stacknqueue;
+package striver_a2z.dp.striver.stacknqueue;
 
 import java.util.ArrayList;
 import java.util.Stack;
