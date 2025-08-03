@@ -1,11 +1,13 @@
+package random;
+
 import java.util.*;
 
-public class Main {
+public class FindX {
   
     public static void findX(int A, int B, int C){
       
       int ans = 0;
-      for(int i =  ; i < 32 ; i++){
+      for(int i = 0; i < 32 ; i++){
         int xi = (A >> i) & 1;
         int yi = (B >> i) & 1;
         int ci = (C >> i) & 1;
